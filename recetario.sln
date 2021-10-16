@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "recetario", "recetario.csproj", "{71E167FB-0D9C-4851-B2B4-98DD8A594094}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipes.Dao.mongodb", "Recipe.Dao\Recipes.Dao.mongodb.csproj", "{09547DC2-845F-4A32-8318-3629E9257586}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipes.Dao.Domain", "Recipe.Dao.Domain\Recipes.Dao.Domain.csproj", "{DBE2CD93-EB8A-4913-81B2-5BE0E53F1111}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipes.Domain", "Recipes.Dao\Recipes.Domain.csproj", "{DBDB2885-4BC3-4A4F-BD9D-312340AF6C2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71E167FB-0D9C-4851-B2B4-98DD8A594094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E167FB-0D9C-4851-B2B4-98DD8A594094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E167FB-0D9C-4851-B2B4-98DD8A594094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E167FB-0D9C-4851-B2B4-98DD8A594094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09547DC2-845F-4A32-8318-3629E9257586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09547DC2-845F-4A32-8318-3629E9257586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09547DC2-845F-4A32-8318-3629E9257586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09547DC2-845F-4A32-8318-3629E9257586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE2CD93-EB8A-4913-81B2-5BE0E53F1111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE2CD93-EB8A-4913-81B2-5BE0E53F1111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE2CD93-EB8A-4913-81B2-5BE0E53F1111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE2CD93-EB8A-4913-81B2-5BE0E53F1111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDB2885-4BC3-4A4F-BD9D-312340AF6C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDB2885-4BC3-4A4F-BD9D-312340AF6C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDB2885-4BC3-4A4F-BD9D-312340AF6C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDB2885-4BC3-4A4F-BD9D-312340AF6C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53D48A4E-7171-45B3-8FB3-C81218B9B015}
+	EndGlobalSection
+EndGlobal
